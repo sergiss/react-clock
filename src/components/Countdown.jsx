@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Number } from './Number'
 import { Word } from './Word'
 
-export const Countdown = ({tgt = 20000}) => {
+export const Countdown = ({tgt = 20000, event}) => {
 
     const [millis , setMillis ] = useState(0);
     const [seconds, setSeconds] = useState(0);
@@ -21,7 +21,7 @@ export const Countdown = ({tgt = 20000}) => {
                     setMillis(0);
                     setSeconds(0);
                     setHours(0);
-                    alert("ZAP!!!!")
+                    event();
                     return 0;
                 } else {
                     setMillis(time % 99);
