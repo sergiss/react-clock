@@ -8,6 +8,7 @@ function App() {
     <>
      <Clock/>
      <Countdown/>
+     <a href="https://github.com/sergiss/react-clock" target="_blank"><i className="fa">&#xf09b;</i> Source Code </a>
     </>
   );
 }
