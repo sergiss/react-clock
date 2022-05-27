@@ -1,3 +1,7 @@
+/**
+ *  2022 Sergi S. - https://github.com/sergiss
+ */
+
 import React, { useEffect, useState } from 'react'
 import { Number } from './Number'
 import { Word } from './Word';
