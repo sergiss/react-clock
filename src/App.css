@@ -23,7 +23,7 @@ body {
 }
 
 .calendar {
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,12 +40,12 @@ body {
 }
 
 .countdown {
-  font-size: 9rem;
+  font-size: 7rem;
 }
 
 .hour {
   flex: 1;
-  font-size: 8rem;
+  font-size: 7rem;
   margin: 0;
   padding: 0;
   top: 0;
@@ -111,11 +111,11 @@ a {
 @media (max-width: 770px) {
 
   .calendar, .ampm {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   .hour {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .clock {
@@ -123,7 +123,7 @@ a {
   }
 
   .countdown {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   
 }
