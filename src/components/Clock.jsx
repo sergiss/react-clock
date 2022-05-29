@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 import { Number } from './Number'
 import { Word } from './Word';
 
-const days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']; 
+const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']; 
 
 export const Clock = ({h24=true}) => {
 
@@ -27,7 +27,7 @@ export const Clock = ({h24=true}) => {
             setHour(hour);
             setMinute(date.getMinutes());
             setSecond(date.getSeconds());
-            setDay(date.getDay() - 1);
+            setDay(date.getDay());
             setPm(date.getHours() >= 12);
         }
 
