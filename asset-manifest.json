@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-clock/static/css/main.4665dad8.css",
-    "main.js": "/react-clock/static/js/main.df4745c4.js",
+    "main.css": "/react-clock/static/css/main.10100207.css",
+    "main.js": "/react-clock/static/js/main.67354726.js",
     "static/media/digital-7.ttf": "/react-clock/static/media/digital-7.ae951a188b593952b384.ttf",
     "index.html": "/react-clock/index.html",
-    "main.4665dad8.css.map": "/react-clock/static/css/main.4665dad8.css.map",
-    "main.df4745c4.js.map": "/react-clock/static/js/main.df4745c4.js.map"
+    "main.10100207.css.map": "/react-clock/static/css/main.10100207.css.map",
+    "main.67354726.js.map": "/react-clock/static/js/main.67354726.js.map"
   },
   "entrypoints": [
-    "static/css/main.4665dad8.css",
-    "static/js/main.df4745c4.js"
+    "static/css/main.10100207.css",
+    "static/js/main.67354726.js"
   ]
 }
